@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+    border: solid 2px #86CD82;
+    color: #666B6A;
+}
+body{
+    background-color: #A0EEC0
+    ;
+}
+.bold{
+    font-weight: bold;;
+}
+.italic{
+    font-style: italic;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.up{
+    background-color: #72A276;
+}
