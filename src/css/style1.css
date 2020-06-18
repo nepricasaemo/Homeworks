@@ -1,0 +1,48 @@
+body {
+display: flex;
+justify-content:center;
+}
+img {
+    display: inline-block;
+    padding: 64px 99px 64px 47px;
+}
+p {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.main {
+    width: 1010px;
+    height: 503px;
+    background-color: #ffffff;
+    border: 10px solid #f6f6f6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 86px;
+}
+.first {
+    display: inline-block;
+    padding: 94px 80px 81px 0;
+}
+.second {
+    font-size: 22.5px;
+    font-weight: bold;
+    margin: 0;
+}
+.three {
+    font-size: 15px;
+    margin: 31px 0 18px;
+}
+.four {
+    font-size: 15px;
+    margin: 0;
+}
+.five {
+    font-size: 30px;
+    margin: 18px 0 52px;
+}
+.six {
+    display: inline;
+    color: #ffffff;
+    padding: 16px 39px;
+    background-color: #ec744a;
+}
