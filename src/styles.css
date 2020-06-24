@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    color: #212121;
+}
+.novbar, .main-page, .about, .service {
+    display: flex;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.novbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.div-logo {
+    display: flex;
+    justify-content: start;
+}
+.logo {
+    font-style: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.div-a {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.div-a a {
+    text-decoration: none;
+    font-style: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    margin: 0 15px;
+}
+.search {
+    margin-left: 30px;
+}
+
+/*Главная страница*/
+
+.image {
+    background-image: url(img/main-photo.jpg);
+    width: 1285px;
+    height: 779px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;  
+    text-align: center;
+    margin-bottom: 115px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.btn a {
+    text-decoration: none;
+}
+.btn p {
+    padding: 30px 50px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-style: 20px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+.blank {
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    margin-right: 30px;
+}
+.green {
+    color: #ffffff;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+}
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/*раздел About*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    margin-bottom: 125px;
+}
+.text-about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.text-about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+}
+.items-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 125px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.items img {
+margin-bottom: 40px;
+}
+.items h3 {
+    margin: 0;
+    margin-bottom: 30px;
+} 
+.items p {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+}
+
+
+/*Сервисы*/
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;  
+    background-color: #e4fdf9;
+}
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.element {
+    height: 435px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    margin: 15px;
+    background-color: #ffffff;
+}
+.element img {
+    margin-bottom: 40px;
+}
+.element h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.element p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.element a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.element span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 20px 15px;
+    margin-bottom: 50px;
+}
+
+
+
