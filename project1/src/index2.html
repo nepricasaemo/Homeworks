@@ -1,51 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карточка книги</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css1\style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-    <div class="element book">
-        <img src="img/Фото книги.png" alt="Фотография книги">
-    </div>
-    <div class="element text">
-        <div class="pre-element">
-            <h1>Истинная королева</h1>
-            <span class="kate">Екатерина Арагонская</span>
-            <p>«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
-            <span class="price">399р.</span>
+    <title>Карточка книги</title>
+  </head>
+  <body>
+      <header class="hero">
+          <div class="container">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand">Светлана Мартьянова</a>
+                <div class="social">
+                    <a href="#"><img src="img/instagram.svg" alt="1" class="icons im"></a>
+                    <a href="#"><img src="img/internet (1).svg" alt="2" class="icons yt"></a>
+                    <a href="#"><img src="img/internet.svg" alt="3" class="icons vk"></a>
+                </div>
+              </nav>
+              <div class="main">
+                  <div class="row align-items-center">
+                      <div class="col-lg-6 col-sm-4">
+                        <div class="main-image">
+                            <img src="img/Фото книги.png" alt="обложка книги">
+                        </div>
+                        <!-- main-image -->
+                      </div> <!-- col-6 -->
+                      <div class="col-lg-6 col-sm-8">
+                        <div class="main-text">
+                            <strong class="title d-block">Истинная королева</strong>
+                            <span class="subtitle d-block">Екатерина Арагонская</span>
+                            <p class="description">«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
+                            <span class="price-tag">399р.</span>
+                            <div class="buttons mt-4">
+                                <a href="#" class="btn btn-success btn-lg mr-4">Купить</a>
+                                <a href="#" class="btn btn-outline-info btn-lg">Узнать подробнее</a>
+                            </div>
+                        </div>
+                        <!-- /.main-text -->
+                      </div> <!-- col-6 -->
+                  </div>
+              </div>
+          </div> <!-- container -->
+      </header>
+      <section class="about section">
+        <div class="container">
+            <h2 class="section-title text-center">Доставка и оплата</h2>
+       <div class="about-outline">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/Shopping cart.svg" alt="1">
+                <p class="block-text">Бесплатная доставка  381 магазин в сети</p>
+            </div>
+            <div class="col-3">
+                <img src="img/Credit card.svg" alt="2">
+                <p class="block-text">Оплата онлайн или наличными при получении</p>
+            </div>
+            <div class="col-3">
+                <img src="img/car.png.svg" alt="3">
+                <p class="block-text">Курьерская доставка:  от 2000 р. – бесплатно</p>
+            </div>
+            <div class="col-3">
+                <img src="img/Mailbox.svg" alt="4">
+                <p class="block-text">Почтой России –  в любую точку страны</p>
+            </div>
         </div>
-        <div class="pre-element button-2">
-            <button class="buy">Купить</button>
-            <button class="find-out-more">Узнать подробнее</button>
+            <!-- row  -->
         </div>
-    </div>
-</div>
-<div class="container-main">  
-    <h2>Доставка и оплата</h2>
-    <div class="container-grey">
-        <div class="item">
-            <img src="img/Shopping cart.svg" alt="изображение">
-            <p>Бесплатная доставка  381 магазин в сети</p>
+            <!-- container for margin -->
+   
         </div>
-        <div class="item">
-            <img src="img/Credit card.svg" alt="изображение">
-            <p>Оплата онлайн или наличными при получении</p>
+      </section>
+      <!-- section about -->
+      <section class="people">
+          <div class="container">
+              <h2 class="section-title text-center">Кто уже купил эту книгу</h2>
+          </div>
+        <div class="obertka-line">
+            <div class="row">
+                <div class="col-3"><img src="img/Слой 1.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 2.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 3.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 4.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 5.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 6.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 7.png" alt="изображение"></div>
+                <div class="col-3"><img src="img/Слой 8.jpg" alt="изображение"></div>
+            </div>
         </div>
-        <div class="item">
-            <img src="img/car.png.svg" alt="изображение">
-            <p>Курьерская доставка:  от 2000 р. – бесплатно</p>
-        </div>
-        <div class="item">
-            <img src="img/Mailbox.svg" alt="изображение">
-            <p>Почтой России –  в любую точку страны</p>
-        </div>
-    </div>
-</div> 
-</body>
+      </section> <!-- section people -->
+      <footer class="footer">
+          <div class="container">
+              <div class="row">
+                <div class="col-4">
+                    <h4 class="footer-title">Реквизиты</h4>
+                    <span class="text d-block">ИП Мартьянова Светлана Олеговна</span>
+                    <span class="text d-block">ИНН 026408036102</span>
+                    <span class="text d-block">ОГРНИП 318028000152678</span>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-title">Информация</h4>
+                    <a href="#" class="link d-block">Политика конфиденциальности</a>
+                    <a href="#" class="link d-block">Оферта сайта</a>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-title">Контакты</h4>
+                    <span class="text d-block">studentkank@gmail.com</span>
+                    <span class="text d-block">vk.com/martyanovasvetlana</span>
+                    <span class="text d-block">t.me/svtjake</span>
+                </div>
+              </div>
+          </div>
+      </footer>
+  </body>
 </html>
